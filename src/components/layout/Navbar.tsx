@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -28,7 +27,7 @@ export function Navbar() {
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-primary-foreground transform group-hover:rotate-12 transition-transform duration-300">
               <Code size={24} strokeWidth={2.5} />
             </div>
-            <span className="font-headline font-bold text-xl tracking-tight text-primary">DevFolio</span>
+            <span className="font-headline font-bold text-xl tracking-tight text-primary">MyFolio</span>
           </Link>
 
           {/* Desktop Nav */}

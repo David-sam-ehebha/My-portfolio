@@ -1,10 +1,9 @@
-
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'DevFolio | Creative Portfolio',
+  title: 'MyFolio | Creative Portfolio',
   description: 'A professional portfolio showcasing modern web development projects.',
 };
 

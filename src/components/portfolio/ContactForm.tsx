@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -48,7 +47,7 @@ export function ContactForm() {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground">Email me at</h4>
-                  <p className="text-muted-foreground">hello@devfolio.me</p>
+                  <p className="text-muted-foreground">hello@myfolio.me</p>
                 </div>
               </div>
             </div>
