@@ -5,13 +5,10 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
 import { Trophy, Coffee, Globe, Heart } from "lucide-react";
 
 export default function AboutPage() {
-  const profileImage = PlaceHolderImages.find(img => img.id === 'profile-pic')?.imageUrl || "";
-
   return (
     <>
       <Navbar />
@@ -21,9 +18,10 @@ export default function AboutPage() {
             <div className="md:col-span-5 space-y-6">
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                 <Image
-                  src={profileImage}
+                  src="/myself.jpeg"
                   alt="Alex Developer"
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
                   className="object-cover"
                   data-ai-hint="developer portrait"
                 />
@@ -51,7 +49,7 @@ export default function AboutPage() {
                 <Badge className="bg-accent/20 text-accent-foreground border-transparent">About Me</Badge>
                 <h1 className="text-4xl md:text-5xl font-headline font-bold">I build things for the <span className="text-primary">web.</span></h1>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  My journey in tech began when I disassembled my first computer at age 15. Since then, I've evolved into a passionate full-stack engineer focused on creating elegant solutions to complex problems.
+                  My journey in tech began when I decided to try frontend development at age 15. Since then, I've evolved into a passionate full-stack engineer focused on creating elegant solutions to complex problems.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   I believe that great software is built at the intersection of powerful technology and human-centric design. My unique value proposition lies in my ability to bridge the gap between technical requirements and business outcomes, ensuring that every line of code serves a purpose.
