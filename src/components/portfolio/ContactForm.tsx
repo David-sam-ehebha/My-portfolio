@@ -47,7 +47,7 @@ export function ContactForm() {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground">Email me at</h4>
-                  <p className="text-muted-foreground">hello@myfolio.me</p>
+                  <p className="text-muted-foreground">davesam408@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@ export function ContactForm() {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="subject">Subject</Label>
+                  <h3 className="text-sm font-medium">Subject</h3>
                   <Input id="subject" placeholder="Project Inquiry" required className="bg-muted/30" />
                 </div>
                 <div className="space-y-2">

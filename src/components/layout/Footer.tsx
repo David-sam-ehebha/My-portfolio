@@ -36,7 +36,7 @@ export function Footer() {
             <Twitter size={20} />
             <span className="sr-only">Twitter</span>
           </Link>
-          <Link href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+          <Link href="mailto:davesam408@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
             <Mail size={20} />
             <span className="sr-only">Email</span>
           </Link>
