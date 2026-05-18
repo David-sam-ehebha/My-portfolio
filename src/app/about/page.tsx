@@ -51,7 +51,7 @@ export default function AboutPage() {
                 <Badge className="bg-accent/20 text-accent-foreground border-transparent">About Me</Badge>
                 <h1 className="text-4xl md:text-5xl font-headline font-bold">I build things for the <span className="text-primary">web.</span></h1>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  My journey in tech began when I disassembled my first computer at age 12. Since then, I've evolved into a passionate full-stack engineer focused on creating elegant solutions to complex problems.
+                  My journey in tech began when I disassembled my first computer at age 15. Since then, I've evolved into a passionate full-stack engineer focused on creating elegant solutions to complex problems.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   I believe that great software is built at the intersection of powerful technology and human-centric design. My unique value proposition lies in my ability to bridge the gap between technical requirements and business outcomes, ensuring that every line of code serves a purpose.
