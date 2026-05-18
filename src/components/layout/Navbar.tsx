@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Code, User, Rocket, Mail, Sparkles, Menu, X } from "lucide-react";
+import { Code, User, Rocket, Mail, Sparkles, Menu, X, ShieldCheck } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -13,6 +13,7 @@ const navLinks = [
   { name: "Skills", href: "/#skills", icon: Code },
   { name: "Contact", href: "/#contact", icon: Mail },
   { name: "AI Assistant", href: "/ai-assistant", icon: Sparkles },
+  { name: "Admin", href: "/admin", icon: ShieldCheck },
 ];
 
 export function Navbar() {
