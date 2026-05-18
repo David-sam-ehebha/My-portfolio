@@ -25,8 +25,8 @@ export function Hero() {
           Crafting Digital <span className="text-primary italic">Excellence</span> Through Code.
         </h1>
         
-        <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-2xl mx-auto font-body">
-          Hi, I'm Alex. A full-stack developer passionate about building high-performance web applications with clean architecture and delightful user experiences.
+        <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto font-body leading-relaxed">
+          I am a passionate Full-Stack Software Developer focused on building modern, responsive, and user-friendly web applications. I specialize in JavaScript technologies, particularly React, Node.js, Express, and MongoDB, with experience creating secure authentication systems, responsive dashboards, profile management systems, and scalable backend integrations.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
