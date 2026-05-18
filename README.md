@@ -43,6 +43,13 @@ To push this code to your repository (`https://github.com/David-sam-ehebha/My-po
    git push -u origin main
    ```
 
+## Quick Tips: Opening the Terminal
+
+If you're not sure how to open the terminal to run the commands above:
+- **VS Code**: Press `Ctrl + \`` (the backtick key).
+- **Windows**: Search for `PowerShell` or `Command Prompt` in the Start menu.
+- **Mac**: Press `Cmd + Space` and search for `Terminal`.
+
 ## Getting Started
 
 To run the development server:
