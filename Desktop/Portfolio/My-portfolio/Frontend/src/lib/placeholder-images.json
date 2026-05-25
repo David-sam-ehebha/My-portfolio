@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile-pic",
+      "description": "Professional headshot of a developer",
+      "imageUrl": "https://picsum.photos/seed/dev-profile/600/600",
+      "imageHint": "professional person portrait"
+    },
+    {
+      "id": "project-1",
+      "description": "E-commerce platform interface",
+      "imageUrl": "https://picsum.photos/seed/project1/800/600",
+      "imageHint": "website dashboard"
+    },
+    {
+      "id": "project-2",
+      "description": "Social media dashboard",
+      "imageUrl": "https://picsum.photos/seed/project2/800/600",
+      "imageHint": "mobile app ui"
+    },
+    {
+      "id": "project-3",
+      "description": "AI data visualization tool",
+      "imageUrl": "https://picsum.photos/seed/project3/800/600",
+      "imageHint": "abstract tech graphics"
+    }
+  ]
+}
