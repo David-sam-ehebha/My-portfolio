@@ -1,0 +1,5 @@
+
+# Frontend ignores
+Frontend/node_modules/
+Frontend/.next/
+Frontend/.env
