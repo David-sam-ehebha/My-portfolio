@@ -1,0 +1,20 @@
+.vercel
+.env*.local
+# Ignore node modules and common OS files
+node_modules/
+*.log
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+# Ignore build outputs
+dist/
+build/
+# Ignore local server files copied accidentally
+server.js
+routes/
+utils/
+store/
+public/
+src/
